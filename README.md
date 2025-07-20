@@ -1,2 +1,2 @@
 # rsschool-museum
-Museume ite 
+Museume site 
