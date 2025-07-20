@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width: 1920px) and (min-width: 1025px) {
+    body{
+    width:1920px ;
+}
+header{
+background-color: black;
+width: 100%;   
+height: 150px;            
+margin: 0; 
+display: flex;
+padding: 61px 240px 58px 240px;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 37px;
+}
+.Museum_container{
+width: 215px;
+height: 33px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.Museum_logo{
+width: 49px;
+height: 26px;
+flex-shrink: 0;
+
+}
+.Museum_name{
+color: #FFF;
+font-family: Forum;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.Menu_container{
+color: #FFF;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+letter-spacing: 2px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+list-style: none;
+}
+a{
+text-decoration: none; 
+cursor: pointer;
+}
+.Visiting_menu, .Explore_menu, .Video_menu, .Gallery_menu, .Tickets_menu {
+margin-right: 35px;
+transform: scale(1.1);
+}
+.Contacts_menu{
+transform: scale(1.1);
+}
+.Visiting_menu :hover, .Explore_menu :hover, .Video_menu :hover, .Gallery_menu :hover, .Tickets_menu :hover, .Contacts_menu :hover{
+font-size: 32px;      
+font-weight: 700;
+color: rgba(210, 177, 131, 1);
+}
+.Welcome{
+background-color: black;
+width: 100%;   
+height: 842px;            
+position: relative;
+}
+.Welcome_text{
+position: absolute; 
+top: 182px; 
+right: 1087px;
+bottom: 272px ;
+left: 240px;
+z-index: 2;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+}
+.Welcome_text1{
+color: #FFF;
+font-family: Forum;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.Welcome_text2{
+color: #FFF;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 2px;
+}
+.Welcome_btn{
+width: 360px;
+height: 75px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 2px;
+border-radius: 10px;
+background: #710707;
+cursor: pointer;
+}
+.Welcome_btn:active{
+background-color: rgba(210, 177, 131, 1);
+color: #710707;
+}
+.Welcome_img{
+top: 32px; 
+right: 240px;
+bottom: 60px ;
+left: 680px;
+position: absolute;
+z-index: 1;
+}
+.Welcome_pagination_container{
+position: absolute; 
+top: 720px; 
+right: 240px;
+bottom: 0px;
+left: 1008px; 
+background-color: black;
+width: 600px;
+height: 120px;
+z-index: 3;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 40px 0px 52px;
+}
+.Welcome_pagination{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.Welcome_pagination_number1, .Welcome_pagination_number2{
+color: #FFF;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; 
+text-transform: uppercase;
+}
+.Welcome_pagination_arrow_line{
+background-color: #FFF;
+width: 2px; 
+height: 15px;
+}
+.Welcome_pagination_square{
+display: flex;
+justify-content: space-evenly;
+width: 180px;
+height: 16px;
+}
+.Square1{
+background-color: rgba(210, 177, 131, 1);
+width: 16px;
+}
+.Square2, .Square3, .Square4,.Square5 {
+background-color: rgba(255, 255, 255, 1);
+width: 16px;
+}
+.Welcome_pagination_arrow{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 80px;
+}
+.Arrow1, .Arrow2{
+font-size: 30px;
+color: rgb(255, 255, 255);
+}
+.Arrow1:hover, .Arrow2:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+#Visiting{
+padding: 75px 240px 75px 240px;
+}
+.Visiting_title{
+display: flex;
+flex-direction: column;
+margin-bottom: 75px;
+}
+.Visiting_text{
+color: #9D8665;
+font-family: Forum;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-bottom: 25px;
+}
+.Visiting_text_line{
+width: 1440px;
+height: 3px;
+flex-shrink: 0;
+background: #710707;
+}
+.Visiting_cards{
+display: grid;
+grid-template-rows: repeat(2, 1fr); 
+grid-template-columns: repeat(3, 1fr); 
+justify-items: center;
+gap: 60px;
+}
+.Visiting_card1, .Visiting_card2, .Visiting_card3, .Visiting_card4, .Visiting_card5, .Visiting_card6{
+width: 440px;
+height: 424px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.Visiting_card1_img, .Visiting_card2_img, .Visiting_card3_img, .Visiting_card4_img, .Visiting_card5_img, .Visiting_card6_img{
+width: 440px;
+height: 285px;
+flex-shrink: 0;
+}
+.Visiting_card1_img:hover, .Visiting_card2_img:hover, .Visiting_card3_img:hover, .Visiting_card4_img:hover, .Visiting_card5_img:hover, .Visiting_card6_img:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+.Visiting_card1_name, .Visiting_card2_name, .Visiting_card3_name, .Visiting_card4_name, .Visiting_card5_name, .Visiting_card6_name{
+color: #000;
+font-family: Forum;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5px;
+text-transform: uppercase;
+overflow: visible;
+white-space: nowrap;
+}
+.Visiting_card_name_line{
+width: 300px;
+height: 2px;
+flex-shrink: 0;
+background: #710707;
+}
+.Visiting_card_text1{
+width: 165px;
+color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.Visiting_card_text2{
+width: 240px;
+color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+#Explore{
+height: 865px;
+background-color: #000;
+display:flex;
+padding: 75px 240px;
+justify-content: space-between;
+}
+.Explore_name_text{
+display: flex;
+flex-direction: column;
+width: 660px;
+justify-content: space-evenly;
+}
+.Explore_name{
+color: #FFF;
+font-family: Forum;
+font-size: 65px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+overflow: visible;
+white-space: nowrap;
+margin-bottom: 25px;
+}
+.Explore_name_line{
+width: 660px;
+height: 3px;
+flex-shrink: 0;
+background: #710707;
+}
+.Explore_text1{
+color: #FFF;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 38.5px; 
+}
+.Explore_text2{
+color: #FFF;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 38.5px; 
+}
+span{
+color: #CAAA7D;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 38.5px;
+}
+.Explore_text3{
+color: #FFF;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 38.5px;
+}
+.Explore_pictures {
+height: 720px;
+width: 700px;
+position: relative;
+overflow: hidden;
+}
+.Explore_picture_left {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 100%;
+overflow: hidden;
+transition: width 0.3s ease;
+z-index: 1;
+}
+.Explore_picture_center {
+position: absolute;
+top: 0;
+left: 50%;
+height: 100%;
+transition: left 0.3s ease, width 0.3s ease;
+transform: translateX(-50%);
+z-index: 3;
+}
+.Explore_picture_right {
+position: absolute;
+top: 0;
+right: 0;
+width: 50%;
+height: 100%;
+overflow: hidden;
+transition: width 0.3s ease;
+z-index: 2;
+}
+.Explore_pictures:hover .Explore_picture_center {
+left: calc(50% - 27%); 
+width: 50%; 
+}
+.Explore_pictures:hover .Explore_picture_right {
+width: 100%; 
+}
+.Explore_pictures:hover .Explore_picture_left {
+width: 0; 
+}
+
+
+#Video{
+
+}
+#Gallery{
+
+}
+#Ticketsr{
+
+}
+#Contacts{
+
+}
+}
+
