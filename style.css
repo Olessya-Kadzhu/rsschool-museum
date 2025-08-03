@@ -33,7 +33,6 @@ justify-content: space-between;
 width: 49px;
 height: 26px;
 flex-shrink: 0;
-
 }
 .Museum_name{
 color: #FFF;
@@ -396,19 +395,435 @@ width: 100%;
 .Explore_pictures:hover .Explore_picture_left {
 width: 0; 
 }
-
-
 #Video{
+padding: 75px 240px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.Video_title_text{
+width: 1440px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+.Video_title{
+color: #9D8665;
+font-family: Forum;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.Video_text{
+color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 38.5px; 
+width: 605px;
+}
+.Video_player{
+width: 1440px;
+height: 735px;
+margin-bottom: 25px;
+}
 
+.YouTube_Videos{
+display: flex;
+width: 1440px;
+justify-content: space-between;
+margin-bottom: 25px;
+}
+
+.Video_slider{
+margin-bottom: 25px;
 }
 #Gallery{
+display: flex;
+flex-direction: column;
+background-color: #000;
+padding: 75px 240px 0px 240px;
+}
+.Gallery_title{
+color: #FFF;
+font-family: Forum;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-bottom: 150px;
+}
+.Gallery_columns{
+display: flex;
+position: relative;
+justify-content: space-between;
+}
+.Gallery_column1, .Gallery_column2, .Gallery_column3{
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+.Gallery_column1, .Gallery_column3{
+margin-top: 50px;
+}
+.Art_gallery1_1 img{
+width: 456px;
+height: 570px;
+flex-shrink: 0;
+}
+.Art_gallery1_2{
+width: 456px;
+height: 570px;
+flex-shrink: 0;
+}
+.Art_gallery1_3{
+width: 456px;
+height: 456px;
+flex-shrink: 0;
+}
+.Art_gallery1_4{
+width: 456px;
+height: 242px;
+flex-shrink: 0;
+object-fit: cover;
+}
+.Art_gallery2_1{
+width: 456px;
+height: 456px;
+flex-shrink: 0;
+}
+.Art_gallery2_2{
+width: 456px;
+height: 570px;
+flex-shrink: 0;
+}
+.Art_gallery2_3{
+width: 456px;
+height: 570px;
+flex-shrink: 0;
+}
+.Art_gallery2_4{
+width: 456px;
+height: 292px;
+flex-shrink: 0;
+object-fit: cover;
+}
+.Art_gallery3_1{
+width: 456px;
+height: 570px;
+flex-shrink: 0;
+}
+.Art_gallery3_2{
+width: 456px;
+height: 456px;
+flex-shrink: 0;
+}
+.Art_gallery3_3{
+width: 456px;
+height: 456px;
+flex-shrink: 0;
+}
+.Art_gallery3_4{
+width: 456px;
+height: 342px;
+flex-shrink: 0;
+object-fit: cover;
+}
+.Gallety_gradient{
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 360px;
+background: linear-gradient(rgba(255, 255, 255, 0), black);
+}
+#Tickets{
+padding: 75px 240px;
+}
+.Tickets_title{
+color: #9D8665;
+font-family: Forum;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-bottom: 30px;
+} 
+.Tickets_title_line{
+width: 1440px;
+height: 3px;
+flex-shrink: 0;
+background: #710707;
+margin-bottom: 30px;
+}
+.Buy_ticket{
+display: flex;
+justify-content: space-between;
+}
+.Buy_ticket_img{
+width: 720px;
+height: 550px;
+flex-shrink: 0;
 
 }
-#Ticketsr{
+.Buy_ticket_type{
+display: flex;
+flex-direction: column;
+width: 270px;
+height: 211px;
+flex-shrink: 0;
+justify-content: space-around;
+}
 
+#Permanent, #Temporary, #Combined {
+accent-color: black;
+width: 17px;
+height: 17px;
+}
+
+.Ticket_type_title, .Buy_ticket_amount_title{
+color: #000;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Ticket_type1, .Ticket_type2, .Ticket_type3{
+color: #000;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Buy_ticket_amount{
+display: flex;
+flex-direction: column;
+width: 150px;
+height: 341px;
+align-items: flex-end;
+justify-content: space-between;
+}
+.Buy_ticket_amount_basic, .Buy_ticket_amount_senior{
+color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.Buy_ticket_btn_basic, .Buy_ticket_btn_sanior{
+display: flex;
+width: 150px;
+height: 50px;
+flex-shrink: 0;
+border: 2px solid #000;
+justify-content: center;
+}
+#Buy_ticket_btn_basic1, #Buy_ticket_btn_basic2, #Buy_ticket_btn_sanior1, #Buy_ticket_btn_sanior2, #input_sanior, #input_basic{
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+background: none;
+}
+label{
+color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+#input_basic, #input_sanior{
+width: 80px;
+}
+.Total_amount, .Total_amoun_sum{
+display: flex;
+color: #000;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.65px;
+}
+.Total_amount{
+margin: 20px 0px 30px 0px;
+}
+#Total_amount_btn{
+width: 175px;
+height: 50px;
+border-radius: 2px;
+background: #000;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 2px;
+}
+.Parallax{
+padding: 0;
+background-image: url(./Parallax.jpg);
+min-height: 400px;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 #Contacts{
+padding: 75px 240px 0px 240px;
+}
+.Contacts_title{
+color: #9D8665;
+font-family: Forum;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+.Contacts_title_line{
+width: 1440px;
+height: 3px;
+flex-shrink: 0;
+background: #710707;
+margin-bottom: 90px;
+}
+.Contacts_all{
+color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+gap: 25px;
+}
+.Contacts_all_title{
+color: #000;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 227px;
+font-weight: bold;
+}
+.Contacts_all_map{
+display: flex;
+justify-content: space-between;
+}
+.Contacts_all{
+display: flex;
+flex-direction: column;
+}
+.Contacts_adress, .Contacts_adress_text, .Contacts_adress_text1, .Contacts_phone_text,.Contacts_phone_text1,.Contacts_mail_text,.Contacts_mail_text1{
+color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.Contacts_adress, .Contacts_phone, .Contacts_mail{
+display: flex;
+}
+.Contacts_map{
+width: 960px;
+height: 620px;
+flex-shrink: 0;
+}
+footer{
+height: 392px;
+background-color: #000;
+}
+.Footer_part1{
+display: flex;
+justify-content: space-between;
+padding: 87px 240px 50px 240px;
+}
 
+.Footer_logo_name{
+display: flex;
+gap: 25px;
+width: 25px;
+color: #FFF;
+font-family: Forum;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+.Footer_logo_name img{
+width: 50px;
+height: 34px;
+}
+.Footer_museum_name{
+
+}
+.Footer_menu{
+
+}
+.Footer_menu_container{
+list-style: none;
+display: grid;
+grid-template-rows: repeat(3, 1fr); 
+grid-template-columns: repeat(2, 1fr); 
+column-gap: 100px;
+row-gap: 20px;
+}
+.Footer_Visiting_menu :hover, .Footer_Explore_menu :hover, .Footer_Video_menu :hover, .Footer_Gallery_menu :hover, .Footer_Tickets_menu:hover, .Footer_Contacts_menu :hover{
+color: rgba(210, 177, 131, 1);
+}
+.Footer_social_media{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.White_circle{
+border-radius: 50px;
+border: 2px solid #666;
+box-shadow: 0 0 0 0 #666;
+padding: 9px;
+}
+.Footer_white_line{
+height: 2px;
+background-color: #FFF;
+}
+.Footer_part2{
+display: flex;
+padding: 50px 240px 50px 240px;
+justify-content: space-between;
+}
+.Footer_year, .Footer_rsschool, .Footer_username{
+color: #FFF;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 200;
+line-height: 22px; 
+letter-spacing: 2px;
 }
 }
 
